@@ -1,0 +1,102 @@
+
+@media (min-width: 992px)
+{
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    
+#hero {
+  padding: 5rem 0;
+  text-align:left;
+  display: flex;
+  flex-direction:row;
+  gap: 1rem;
+  
+}
+
+.hero-info h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900px;
+  font-style: normal;
+}
+
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  
+  
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+#hero img {
+  border-radius:  5px;
+  width: 50%; 
+    max-height: 100%; 
+    object-fit: contain; 
+  
+}
+/*card*/
+    .card-body-info{
+      text-align:center;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+      max-height: 100%; 
+    object-fit: contain; 
+    }
+
+    .card-body{
+    
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+    }
+  
+    /*mapa*/
+  .loguin-info{
+    padding: 5rem 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+  
+  }
+  
+
+
+
+
+/*footer*/
+.links-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+}
+
+
+
+@media (min-width: 992px) {
+  .loguin-info {
+          padding: 5rem 0;
+          text-align: left;
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+  }
+  }
